@@ -1,3 +1,9 @@
+body{
+    width : 100%;
+    margin : 0;
+    padding : 0;
+    height : 100%;
+}
 .icons{
     height : 60px; 
     padding : 10px
@@ -12,9 +18,15 @@
     
     
 }
+#myCarousel{
+    color : black
+}
 .icons-row li {
     display: inline;
     
+}
+#hamburger{
+    display : none;
 }
 @media (max-width:810px){
     .icons-row{
@@ -22,5 +34,11 @@
     }
     #login{
         display : none
+    }
+    #hamburger{
+        display : contents;
+        float : right;
+        right : 0;
+        top : 0
     }
 }
