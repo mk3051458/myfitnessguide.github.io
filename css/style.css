@@ -33,6 +33,12 @@ body{
 #hamburger{
     display : none;
 }
+.carousel-img{
+    height : 80vh;
+}
+.navbar-list{
+    display : none;
+}
 @media (max-width:810px){
     .icons-row{
         display :none
@@ -43,12 +49,17 @@ body{
     #hamburger{
         position : absolute;
         display : inline;
-        float : right;
+    
         top : 20px;
         right : 10px;
         
     }
-    
+    .navbar-list{
+        display: inline
+    }
+    .carousel-img{
+        height : 40vh;
+    }
 }
 .sticky {
     position: fixed;
