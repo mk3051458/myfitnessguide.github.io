@@ -18,8 +18,13 @@ body{
     
     
 }
+#navbar{
+    overflow : hidden;
+    background : black
+}
 #myCarousel{
-    color : black
+    color : rgb(8, 8, 8);
+    margin-top : 10%
 }
 .icons-row li {
     display: inline;
@@ -36,9 +41,17 @@ body{
         display : none
     }
     #hamburger{
-        display : contents;
+        position : absolute;
+        display : inline;
         float : right;
-        right : 0;
-        top : 0
+        top : 20px;
+        right : 10px;
+        
     }
+    
 }
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
