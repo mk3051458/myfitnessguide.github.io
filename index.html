@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat+Alternates:700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="js/custom.js"></script>
     <title>Myfitnessguide.com Your fitness destination</title>
 
@@ -166,9 +167,9 @@
     <br />
     <div class="container">
         <div class="row">
-            <div class="card-deck">
-                <div class="col-md-3 ">
-                    <div class="card " style="width: 18rem;">
+            <div class="card-deck" id="deck">
+                <div class="col-md-3   ">
+                    <div class="card myCards text-center" style="width: 18rem;">
                         <img class="card-img-top" src="images/heartset-card.jpg" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">Heartset</h5>
@@ -224,7 +225,7 @@
         </div>
     </div>
     <br />
-    <div class="container-fluid footertext-center">
+    <div class="container-fluid footer text-center">
         <div class="row  bg-dark text-white">
             <h6 class="text-center d-block mx-auto">Copyright &copy; 2019 myfitnessguide.com. All rights reserved </h6>
         </div>

@@ -9,22 +9,21 @@ function hideHeartset(){
     //document.getElementById("heartset").src = "images/heartset.png";
                         
 }
-// When the user scrolls the page, execute myFunction
-window.onscroll = function() {myFunction()};
-
-// Get the navbar
-var navbar = document.getElementById("navbar");
-console.log(navbar);
-
-
-// Get the offset position of the navbar
-var sticky = navbar.offsetTop;
-
-// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
-function myFunction() {
-  if (window.pageYOffset >= sticky) {
-    navbar.classList.add("sticky")
-  } else {
-    navbar.classList.remove("sticky");
-  }
-}
+jQuery(document).ready(function($) {
+  var alterClass = function() {
+    var ww = document.body.clientWidth;
+    if (ww >= 501) {
+      $('.deck').removeClass('d-block');
+      $('.deck').removeClass('mx-auto');
+    } else if (ww < 501) {
+      $('#deck').addClass('d-block');
+      $('#deck').addClass('mx-auto');
+      
+    };
+  };
+  $(window).resize(function(){
+    alterClass();
+  });
+  //Fire it when the page first loads:
+  alterClass();
+});

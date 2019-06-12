@@ -60,6 +60,9 @@ body{
     .carousel-img{
         height : 40vh;
     }
+    .myCards{
+        text-align: center
+    }
 }
 .sticky {
     position: fixed;
