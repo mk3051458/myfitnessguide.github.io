@@ -12,14 +12,15 @@ function hideHeartset(){
 jQuery(document).ready(function($) {
   var alterClass = function() {
     var ww = document.body.clientWidth;
-    if (ww >= 501) {
-      $('.deck').removeClass('d-block');
-      $('.deck').removeClass('mx-auto');
-    } else if (ww < 501) {
+     if (ww < 501) {
       $('#deck').addClass('d-block');
       $('#deck').addClass('mx-auto');
       
-    };
+    }
+    if (ww >= 501) {
+      $('.deck').removeClass('d-block');
+      $('.deck').removeClass('mx-auto');
+    }
   };
   $(window).resize(function(){
     alterClass();
