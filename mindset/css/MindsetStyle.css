@@ -1,3 +1,6 @@
+*{
+    font-family: 'Sigmar One', cursive;
+}
 .mindset-description{
     margin-top: 90px;
     background : blue;
@@ -16,6 +19,15 @@
     font-weight: 900;
     letter-spacing: 2px;
     text-shadow: 1px 0 #888888;
+}
+.mindset-description-button{
+    font-weight : 700;
+    
+    letter-spacing: 0.7px
+}
+.most-visited{
+    font-weight : 900;
+    text-shadow : 1px 0 #888888;
 }
 @media  (max-width:500px){
     .mindset-description{

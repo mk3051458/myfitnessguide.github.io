@@ -63,7 +63,7 @@ body{
         display: inline
     }
     .carousel-img{
-        height : 35vh;
+        height : 100vh;
     }
     .myCards{
         text-align: center
@@ -76,3 +76,4 @@ body{
     background: #141CC2;
     border-radius: 16px;
 }
+

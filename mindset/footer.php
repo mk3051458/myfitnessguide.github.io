@@ -1,4 +1,4 @@
-   <div class="container-fluid footer text-center">
+   <div class="container-fluid footer text-center" style="background-size : cover">
         <div class="row  bg-dark text-white">
             <h6 class="text-center d-block mx-auto">Copyright &copy; 2019 myfitnessguide.com. All rights reserved </h6>
         </div>
