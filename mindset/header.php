@@ -32,7 +32,7 @@
                 <ul>
                     <li class="navbar-nav">
 
-                        <a class="" href="#" onmouseover="showHeartset()" onmouseleave="hideHeartset()">
+                        <a class="" href="#" >
                             <abbr title="Heartset">
                                 <img src="../images/heartset.png" id="heartset" alt="" class="img img-fluid icons">
                             </abbr>
@@ -43,7 +43,7 @@
                     <li class="">
                         <a class="" href="#">
                             <abbr title="Mindset">
-                                <img src="../images/mindset.png" alt="" class="img img-fluid icons">
+                                <img src="../images/mindset.png" alt="" class="img img-fluid bg-info icons">
                             </abbr>
                         </a>
                     </li>
