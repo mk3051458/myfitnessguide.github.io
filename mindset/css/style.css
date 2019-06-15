@@ -1,0 +1,27 @@
+.mindset-description{
+    margin-top: 90px;
+    background : blue;
+    height : 100vh;
+    width : 100%;
+    background-image : url(../images/mindset-main.jpg) ;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.mindset-description-text{
+    margin-top : 25%;
+    color : white;
+    font-family: 'Sigmar One', cursive;
+    font-weight: 900;
+    letter-spacing: 2px;
+    text-shadow: 1px 0 #888888;
+}
+@media  (max-width:500px){
+    .mindset-description{
+        background-image: url(../images/blur-businesswoman-caucasian-941555.jpg);
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+    }
+}
