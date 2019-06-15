@@ -36,4 +36,7 @@
         background-size: cover;
         background-position: center;
     }
+    .mindset-description-text{
+        margin-top : 50%
+    }
 }
