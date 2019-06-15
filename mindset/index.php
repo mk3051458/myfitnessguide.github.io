@@ -16,15 +16,45 @@
     <h3>Most visited posts</h3>
 </div>
 <div class="container">
-    <div class="row">     
-        <div class="col-md-3">
-            
+    <div class="row" >     
+        <div class="col-md-4" >
+            <img src="images/mindset-main-small.jpg" alt="" class="img img-fluid">
+            <h5>Title of post</h5>
         </div>
-        <div class="col-md-3"></div>
-        <div class="col-md-3"></div>
+        <div class="col-md-4">
+            <img src="images/mindset-main-small.jpg" alt="" class="img img-fluid">
+            <h5>Title of post</h5>
+        </div>
+        <div class="col-md-4">
+            <img src="images/mindset-main-small.jpg" alt="" class="img img-fluid">
+            <h5>Title of post</h5>
+
+        </div>
     </div>
 </div>
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br>
+<div class="text-center most-visited">
+    <h3>Latest posts</h3>
+</div>
+<div class="container">
+    <div class="row" >     
+        <div class="col-md-4" >
+            <img src="images/mindset-main-small.jpg" alt="" class="img img-fluid">
+            <h5>Title of post</h5>
+        </div>
+        <div class="col-md-4">
+            <img src="images/mindset-main-small.jpg" alt="" class="img img-fluid">
+            <h5>Title of post</h5>
+        </div>
+        <div class="col-md-4">
+            <img src="images/mindset-main-small.jpg" alt="" class="img img-fluid">
+            <h5>Title of post</h5>
+
+        </div>
+    </div>
+</div>
+<br>
+<br>
 <?php
     include "footer.php";
 ?>
