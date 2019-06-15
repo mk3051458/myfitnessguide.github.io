@@ -76,3 +76,14 @@ body{
     background: #141CC2;
     border-radius: 16px;
 }
+.description{
+    
+    background : blue;
+    height : 100vh;
+    width : 100%;
+    background-image : url(../images/blur-businesswoman-caucasian-941555.jpg) ;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
