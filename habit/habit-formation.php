@@ -145,7 +145,7 @@
 <div class="container" >
     <div class="row">
             <!-- Sharingbutton Facebook -->
-        <a class="resp-sharing-button__link" href="https://facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmyfitnessguide.in" target="_blank" rel="noopener" aria-label="Facebook">
+        <a class="resp-sharing-button__link" href="https://facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmyfitnessguide.herokuapp.com/habit/habit-formation.php" target="_blank" rel="noopener" aria-label="Facebook">
             <div class="resp-sharing-button resp-sharing-button--facebook resp-sharing-button--medium">
                 <div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
                     <!-- <img src="../images/facebook.png" alt="" class="img img-fluid img-responsive" style="height : 25px;width : 25px"> -->
@@ -156,7 +156,7 @@
         </a>
 
         <!-- Sharingbutton Twitter -->
-        <a class="resp-sharing-button__link" href="https://twitter.com/intent/tweet/?text=Super%20fast%20and%20easy%20Social%20Media%20Sharing%20Buttons.%20No%20JavaScript.%20No%20tracking.&amp;url=http%3A%2F%2Fsharingbuttons.io" target="_blank" rel="noopener" aria-label="Twitter">
+        <a class="resp-sharing-button__link" href="https://twitter.com/intent/tweet/?text=justr%20test.&amp;url=https%3A%2F%2Fmyfitnessguide.herokuapp.com/habit/habit-formation.php" target="_blank" rel="noopener" aria-label="Twitter">
             <div class="resp-sharing-button resp-sharing-button--twitter resp-sharing-button--medium">
                 <div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
                 <i class="fa fa-twitter"></i>
@@ -170,7 +170,7 @@
         </a>
 
         <!-- Sharingbutton E-Mail -->
-        <a class="resp-sharing-button__link" href="mailto:?subject=Super%20fast%20and%20easy%20Social%20Media%20Sharing%20Buttons.%20No%20JavaScript.%20No%20tracking.&amp;body=http%3A%2F%2Fsharingbuttons.io" target="_self" rel="noopener" aria-label="E-Mail">
+        <a class="resp-sharing-button__link" href="mailto:?subject=justr%20test.&amp;body=https%3A%2F%2Fmyfitnessguide.herokuapp.com/habit/habit-formation.php" target="_self" rel="noopener" aria-label="E-Mail">
         <div class="resp-sharing-button resp-sharing-button--email resp-sharing-button--medium">
             <div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
             <i class="fa fa-envelope"></i>
@@ -179,7 +179,7 @@
         </a>
 
         <!-- Sharingbutton Pinterest -->
-        <a class="resp-sharing-button__link" href="https://pinterest.com/pin/create/button/?url=http%3A%2F%2Fsharingbuttons.io&amp;media=http%3A%2F%2Fsharingbuttons.io&amp;description=Super%20fast%20and%20easy%20Social%20Media%20Sharing%20Buttons.%20No%20JavaScript.%20No%20tracking." target="_blank" rel="noopener" aria-label="Pinterest">
+        <a class="resp-sharing-button__link" href="https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fmyfitnessguide.herokuapp.com/habit/habit-formation.php&amp;media=https%3A%2F%2Fmyfitnessguide.herokuapp.com/habit/habit-formation.php&amp;description=justr%20test." target="_blank" rel="noopener" aria-label="Pinterest">
         <div class="resp-sharing-button resp-sharing-button--pinterest resp-sharing-button--medium">
             <div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
             <i class="fa fa-pinterest"></i>
@@ -188,7 +188,7 @@
         </a>
 
         <!-- Sharingbutton LinkedIn -->
-        <a class="resp-sharing-button__link" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http%3A%2F%2Fsharingbuttons.io&amp;title=Super%20fast%20and%20easy%20Social%20Media%20Sharing%20Buttons.%20No%20JavaScript.%20No%20tracking.&amp;summary=Super%20fast%20and%20easy%20Social%20Media%20Sharing%20Buttons.%20No%20JavaScript.%20No%20tracking.&amp;source=http%3A%2F%2Fsharingbuttons.io" target="_blank" rel="noopener" aria-label="LinkedIn">
+        <a class="resp-sharing-button__link" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3A%2F%2Fmyfitnessguide.herokuapp.com/habit/habit-formation.php&amp;title=justr%20test.&amp;summary=justr%20test.&amp;source=https%3A%2F%2Fmyfitnessguide.herokuapp.com/habit/habit-formation.php" target="_blank" rel="noopener" aria-label="LinkedIn">
         <div class="resp-sharing-button resp-sharing-button--linkedin resp-sharing-button--medium"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
         <i class="fa fa-linkedin"></i>
             <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6.5 21.5h-5v-13h5v13zM4 6.5C2.5 6.5 1.5 5.3 1.5 4s1-2.4 2.5-2.4c1.6 0 2.5 1 2.6 2.5 0 1.4-1 2.5-2.6 2.5zm11.5 6c-1 0-2 1-2 2v7h-5v-13h5V10s1.6-1.5 4-1.5c3 0 5 2.2 5 6.3v6.7h-5v-7c0-1-1-2-2-2z"/></svg>--->
@@ -196,7 +196,7 @@
         </a>
 
         <!-- Sharingbutton Reddit -->
-        <a class="resp-sharing-button__link" href="https://reddit.com/submit/?url=http%3A%2F%2Fsharingbuttons.io&amp;resubmit=true&amp;title=Super%20fast%20and%20easy%20Social%20Media%20Sharing%20Buttons.%20No%20JavaScript.%20No%20tracking." target="_blank" rel="noopener" aria-label="Reddit">
+        <a class="resp-sharing-button__link" href="https://reddit.com/submit/?url=https%3A%2F%2Fmyfitnessguide.herokuapp.com/habit/habit-formation.php&amp;resubmit=true&amp;title=just%20test." target="_blank" rel="noopener" aria-label="Reddit">
         <div class="resp-sharing-button resp-sharing-button--reddit resp-sharing-button--medium">
             <div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
                 <i class="fa fa-reddit"></i>
@@ -205,7 +205,7 @@
         </a>
 
         <!-- Sharingbutton WhatsApp -->
-        <a class="resp-sharing-button__link" href="whatsapp://send?text=Super%20fast%20and%20easy%20Social%20Media%20Sharing%20Buttons.%20No%20JavaScript.%20No%20tracking.%20http%3A%2F%2Fsharingbuttons.io" target="_blank" rel="noopener" aria-label="WhatsApp">
+        <a class="resp-sharing-button__link" href="whatsapp://send?text=just%20test.%20https%3A%2F%2Fmyfitnessguide.herokuapp.com/habit/habit-formation.php" target="_blank" rel="noopener" aria-label="WhatsApp">
         <div class="resp-sharing-button resp-sharing-button--whatsapp resp-sharing-button--medium"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
         <i class="fa fa-whatsapp"></i>
             <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.1 3.9C17.9 1.7 15 .5 12 .5 5.8.5.7 5.6.7 11.9c0 2 .5 3.9 1.5 5.6L.6 23.4l6-1.6c1.6.9 3.5 1.3 5.4 1.3 6.3 0 11.4-5.1 11.4-11.4-.1-2.8-1.2-5.7-3.3-7.8zM12 21.4c-1.7 0-3.3-.5-4.8-1.3l-.4-.2-3.5 1 1-3.4L4 17c-1-1.5-1.4-3.2-1.4-5.1 0-5.2 4.2-9.4 9.4-9.4 2.5 0 4.9 1 6.7 2.8 1.8 1.8 2.8 4.2 2.8 6.7-.1 5.2-4.3 9.4-9.5 9.4zm5.1-7.1c-.3-.1-1.7-.9-1.9-1-.3-.1-.5-.1-.7.1-.2.3-.8 1-.9 1.1-.2.2-.3.2-.6.1s-1.2-.5-2.3-1.4c-.9-.8-1.4-1.7-1.6-2-.2-.3 0-.5.1-.6s.3-.3.4-.5c.2-.1.3-.3.4-.5.1-.2 0-.4 0-.5C10 9 9.3 7.6 9 7c-.1-.4-.4-.3-.5-.3h-.6s-.4.1-.7.3c-.3.3-1 1-1 2.4s1 2.8 1.1 3c.1.2 2 3.1 4.9 4.3.7.3 1.2.5 1.6.6.7.2 1.3.2 1.8.1.6-.1 1.7-.7 1.9-1.3.2-.7.2-1.2.2-1.3-.1-.3-.3-.4-.6-.5z"/></svg>-->
