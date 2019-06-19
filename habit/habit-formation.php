@@ -143,7 +143,9 @@
     </div>
 </div>
 <div class="container" >
+<h6>Share this post : </h6><br>
     <div class="row">
+        
             <!-- Sharingbutton Facebook -->
         <a class="resp-sharing-button__link" href="https://facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmyfitnessguide.herokuapp.com/habit/habit-formation.php" target="_blank" rel="noopener" aria-label="Facebook">
             <div class="resp-sharing-button resp-sharing-button--facebook resp-sharing-button--medium">
@@ -215,13 +217,14 @@
    
 </div>
 <div class="container">
-    <div class="row">
-        <div class="col-md-2 col-sm-2 col-lg-2">
+    <br>
+    <div class="row flex-nowrap">
+        <div class="col-md-2 col-sm-2 col-lg-2 col-xs-6">
             <a href="" class="btn btn-primary">Previous</a>
         </div>
-        <div class="col-md-6 col-sm-8 col-lg-6"></div>
+        <div class="col-md-6 col-sm-8 col-lg-6 col-xs-0"></div>
 
-        <div class="col-md-2 col-sm-2 col-lg-2">
+        <div class="col-md-2 col-sm-2 col-lg-2 col-xs-6">
             <a href="" class="btn btn-primary">Next</a>
         
         </div>
