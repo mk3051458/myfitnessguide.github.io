@@ -9,7 +9,7 @@
                 <form action="" method="post">
                     <div class="form-group">
                         <label for="height">Height :</label>
-                        <div class="row">
+                        <div class="row flex-nowrap">
                             <input type="number" name="" id="height" class="form-control col-md-9">
                             <select name="" id="" class="custom-select col-md-3">
                                 <option value="">inch</option>
@@ -21,7 +21,7 @@
                     </div>
                     <div class="form-group">
                         <label for="weight">Weight :</label>
-                        <div class="row">
+                        <div class="row flex-nowrap">
                             <input type="number" name="" id="weight" class="form-control col-md-9">
                             <select name="" id="" class="custom-select col-md-3">
                                 <option value="">kg</option>
