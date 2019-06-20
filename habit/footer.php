@@ -20,7 +20,7 @@
                 <a href="https://www.instagram.com/myfitnessguide.in/" class="p-1">
                     <i class="fa fa-instagram"></i>
                 </a> 
-                <a href="" class="p-1">
+                <a href="https://twitter.com/myfitnessguidei" class="p-1">
                     <i class="fa fa-twitter"></i>
                 </a> 
             </div>       
