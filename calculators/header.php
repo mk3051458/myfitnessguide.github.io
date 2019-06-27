@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="shortcut icon" href="images/fitfood.PNG" type="image/x-icon">
+    <link rel="shortcut icon" href="../images/fitfood.PNG" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css?family=Montserrat+Alternates:700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">    
@@ -14,15 +14,13 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="../js/custom.js"></script>
     <title>Myfitnessguide.com Your fitness destination</title>
-
 </head>
-
 <body>
     <div class="row" id="navbar" style="background: #e6f0ff">
         <nav class="navbar navbar-expand-md  fixed-top navbar-light bg-light col-12 justify-content-md-start menu"
             style="background-color: #e3f2fd;">
             <div class="col-md-2 col-sm-2 navbar-brand">
-                <a class="navbar-brand" href="#">
+                <a class="navbar-brand" href="../">
                     <img src="../images/My-Fitness-Guide.PNG" alt="" class="" style="height: 50px;width : 200px">
                 </a>
             </div>
@@ -30,14 +28,11 @@
             <div class=" col-lg-4 col-md-5 col-sm-5 justify-content-center  icons-row ">
                 <ul>
                     <li class="navbar-nav">
-
                         <a class="" href="#" onmouseover="showHeartset()" onmouseleave="hideHeartset()">
                             <abbr title="Heartset">
                                 <img src="../images/heartset.png" id="heartset" alt="" class="img img-fluid icons">
                             </abbr>
                         </a>
-
-
                     </li>
                     <li class="">
                         <a class="" href="#">

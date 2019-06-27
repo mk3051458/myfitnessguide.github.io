@@ -64,11 +64,6 @@ body{
         text-align: center
     }
 }
-.bmi-calculator{    
-    margin-top : 120px;
-    background: #141CC2;
-    border-radius: 16px;
-}
 table, th, td {
     border: 1px solid black;
     border-collapse: collapse;

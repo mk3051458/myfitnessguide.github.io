@@ -22,7 +22,7 @@
         <nav class="navbar navbar-expand-md  fixed-top navbar-light bg-light col-12 justify-content-md-start menu"
             style="background-color: #e3f2fd;">
             <div class="col-md-2 col-sm-2 navbar-brand">
-                <a class="navbar-brand" href="#">
+                <a class="navbar-brand" href="../index.html">
                     <img src="../images/My-Fitness-Guide.PNG" alt="" class="" style="height: 50px;width : 200px">
                 </a>
             </div>

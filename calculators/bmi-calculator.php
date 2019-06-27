@@ -1,20 +1,50 @@
 <?php
     include "header.php";
+   
 ?>
-<div class="container ">
+<div class="container " style="margin-top : 110px;">
+    
+    <?php 
+        if(isset($_REQUEST['bmi'])){
+            $bmi = $_REQUEST['bmi'];
+            $category = "";
+            if($bmi < 18.5){
+                $category = "Underweight";
+            }
+            elseif( ($bmi >=18.5) && ($bmi < 24.9)){
+                $category = "Normal Weight";
+            }
+            elseif( ($bmi >=25) && ($bmi < 29.9) ){
+                $category = "Overweight";
+            }
+            elseif( ($bmi >30) ){
+                $category = "Obesity";
+            }
+    ?>
+            <div class="row " style="margin-top : 90px">
+                <div class="col-md-12">
+                    <div class="bmi text-light text-center">
+                        <h5> Your BMI is <?php echo $bmi;?> ( <?php echo $category;?> ) </h5>
+                    </div>
+                </div>
+               
+            </div>
+            
+        <?php    
+        }
+        ?>
     <div class="row">
         <div class="col-md-6 ">
             <div class="jumbotron bmi-calculator text-light">
                 <h3 class="text-center">BMI calculator</h3>
-                <form action="" method="post">
+                <form action="calculate-bmi.php" method="POST">
                     <div class="form-group">
                         <label for="height">Height :</label>
                         <div class="row flex-nowrap">
-                            <input type="number" name="" id="height" class="form-control col-md-9">
-                            <select name="" id="" class="custom-select col-md-3">
-                                <option value="">inch</option>
-                                <option value="">cm</option>
-
+                            <input type="text" name="height" id="height" min="1"  class="form-control col-md-9">
+                            <select name="height-units" id="height-units" class="custom-select col-md-3">
+                                <option value="inch">inch</option>
+                                <option value="m">metres</option>
                             </select>
                         </div>
                        
@@ -22,10 +52,10 @@
                     <div class="form-group">
                         <label for="weight">Weight :</label>
                         <div class="row flex-nowrap">
-                            <input type="number" name="" id="weight" class="form-control col-md-9">
-                            <select name="" id="" class="custom-select col-md-3">
-                                <option value="">kg</option>
-                                <option value="">pound</option>
+                            <input type="text" name="weight" id="weight" class="form-control col-md-9">
+                            <select name="weight-units" id="eight-units" class="custom-select col-md-3">
+                                <option value="kg">kg</option>
+                                <option value="pound">pound</option>
 
                             </select>
                         </div>
@@ -82,7 +112,6 @@
                      Normal weight = (18.5 - 24.9) <br>
                      Overweight = ( 25 - 29.9 ) <br>
                      Obesity = ( 30 or greater)
-
                  </p>
             </div>
         </div>
